@@ -1,0 +1,22 @@
+Feature: open source hr management
+Scenario:  Login Function
+Given OrangeHRM Webpage launched
+When user enter user name in username field
+And user enter password in password field
+And user clicks on login button
+
+
+
+Scenario:  help icon  function
+Given The Application is help icon  page
+When User need to click the help icon
+Then user is on next page
+
+
+
+Scenario: Sumbit a request function
+Given The Application is  Sumbit a request text page
+When User need to click the Sumbit a request text 
+Then user is on Sumbit a request page 
+
+
